@@ -49,6 +49,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		 */
 		.icon-unitcategory{background-position:-340px -260px}
 		.icon-goodscategory{background-position:-260px -420px}
+		.icon-storage{background-position:-200px -220px}
 		/**
 		 * 系统管理
 		 */
@@ -310,6 +311,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<p>
 							<a title="unitAction_managementPage"><span
 								class="icon icon-unitcategory">&nbsp;&nbsp;&nbsp;&nbsp; </span>计量单位</a>
+						</p>
+						<p>
+							<a title="index_storageManagementPage"><span
+								class="icon icon-storage">&nbsp;&nbsp;&nbsp;&nbsp; </span>仓库信息</a>
 						</p>
 					</div>
 					<div title="系统管理">
